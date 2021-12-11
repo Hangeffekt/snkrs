@@ -1,0 +1,415 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+    font-family: main_body_font_family;
+    src: url(Fonts/along-sans-regular.ttf);
+}
+
+.home_body{
+    background-image: url("Home_background_6.jpeg");
+    background-color: black;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body_php {
+  font-size: 120%;
+  background-color: transparent;
+}
+
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  background: transparent;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group_register {
+    text-align: center;
+    background-color: #2c2c2c88;
+    height: 30px;
+    width: 93%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px;
+  background-color: #2c2c2c88;
+  color: white;
+}
+
+.btn {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  background-color: #000000;
+  width: 93%;
+  margin-top: -0.29em;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.home_felso_bg_dark{
+    background-color: #00000093;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.home_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_nem_vegleges{
+    width:  100%;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+}
+
+.regisztracio_div{
+    display: flex;
+}
+
+.register_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.belepes_div{
+    display: flex;
+}
+
+.login_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.us_div{
+    display: flex;
+}
+
+.us_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.user_div{
+    display: flex;
+}
+
+.user_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/*Home page gombok hover*/
+
+.user_button:hover {
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+  }
+
+  .register_button:hover {
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+  }
+
+  .us_button:hover {
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+  }
+
+  .login_button:hover {
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+  }
+
+/*Register html*/
+
+.register_screen_register_div{
+    display: flex;
+    background-color: #ffffff8e;
+    height: 70%;
+    flex-direction: column;
+    margin-top: 3em;
+    border-radius: 20px;
+}
+
+.register_screen_register_h1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: main_body_font_family;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.2em;
+}
+
+.register_screen_p{
+    display: flex;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    font-size: 110%;
+}
+
+.screen_register_button{
+    background-color: #ffffff93;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.screen_register_button:hover {
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+  }
+
+  /*Also sav*/
+
+.home_also_bg_dark{
+    display: flex;
+    background-color: #00000093;
+    height: 70px;
+    width:  100%;
+    position: fixed;
+    bottom: 0%;
+    z-index: -1;
+    left: 0%;
+}
+
+.kukac{
+    display: flex;
+    justify-content: center;
+}
+
+.also_sav{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 1222px;
+    justify-content: space-between;
+}
+
+/*Also sav gombok*/
+
+.news_div{
+    display: flex;
+}
+
+.news_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.wts_div{
+    display: flex;
+}
+
+.wts_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    text-transform: uppercase;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.wtb_div{
+    display: flex;
+}
+
+.wtb_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    text-transform: uppercase;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.wtt_div{
+    display: flex;
+}
+
+.wtt_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    text-transform: uppercase;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.legit_check_div{
+    display: flex;
+}
+
+.legit_check_button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/*Also sav gombok hover*/
+
+.news_button:hover{
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+}
+
+.wts_button:hover{
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+}
+
+.wtb_button:hover{
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+}
+
+.wtt_button:hover{
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+}
+
+.legit_check_button:hover{
+    background-color:  #ffffff93;
+    color: rgb(0, 0, 0);
+}
