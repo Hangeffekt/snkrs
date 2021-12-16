@@ -20,7 +20,7 @@
 
     @else
         <div    class="regisztracio_div">
-            <a  href="/register">
+            <a  href="/registration">
                 <button type="button"   class="register_button">Regisztráció</button>
             </a>
         </div>

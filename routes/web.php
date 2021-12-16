@@ -16,6 +16,10 @@ use App\Http\Controllers\WtsController;
 
 Route::get('/', [WtsController::class, "main"]);
 
+Route::get('/login', [WtsController::class, "login"]);
+
+Route::get('/registration', [WtsController::class, "register"]);
+
 Route::get('/news', function () {
     return view('news');
 });

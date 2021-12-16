@@ -20,6 +20,12 @@ class WtsController extends Controller
     {
         return view("login", ["MainFilter" => "login_body"]);
     }
+
+    public function register(Request $request)
+    {
+        return view("register", ["MainFilter" => "register_body"]);
+    }
+
     /**
      * Display a listing of the resource.
      *
