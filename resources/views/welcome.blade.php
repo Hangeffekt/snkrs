@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/script.js"></script>
     </head>
-    <body class="home_body">
+    <body class="{{ $MainFilter }}_body">
         <div class="home_felso_bg_dark"></div>
         <div class="container">
             

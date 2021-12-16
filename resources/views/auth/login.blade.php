@@ -3,6 +3,7 @@
 @section("title", "Log In")
 
 @section("content")
+
 <div class="register_screen_register_div">
     <h1 class="register_screen_register_h1">Belépés</h1>
 

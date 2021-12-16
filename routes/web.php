@@ -14,9 +14,7 @@ use App\Http\Controllers\WtsController;
 |
 */
 
-Route::get('/', function () {
-    return view('main');
-});
+Route::get('/', [WtsController::class, "main"]);
 
 Route::get('/news', function () {
     return view('news');

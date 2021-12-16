@@ -10,6 +10,16 @@ use Illuminate\Support\Facades\URL;
 
 class WtsController extends Controller
 {
+
+    public function main(Request $request)
+    {
+        return view("main", ["MainFilter" => "home_body"]);
+    }
+
+    public function login(Request $request)
+    {
+        return view("login", ["MainFilter" => "login_body"]);
+    }
     /**
      * Display a listing of the resource.
      *

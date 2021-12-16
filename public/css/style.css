@@ -136,16 +136,14 @@
 .banana {
   display: flex;
   justify-content: center;
+  width: 1200px;
 }
 
 .home_page_h2_div {
-  margin: 0;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
+  margin-left: -150px;
 }
 
 .home_page_h2_button {
