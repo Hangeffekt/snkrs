@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WtsController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,9 @@ Route::get('/wtt', [WtsController::class, "index"]);
 Route::get('/add', function () {
     return view('newproduct');
 });
+
+/** profile pages */
+Route::get('/profile', [ProfileController::class, "index"])->middleware('auth');
 
 Route::get("/add", [WtsController::class, "create"]);
 Route::post("/wtsstore", [WtsController::class, "store"])->name("user.wtsstore");

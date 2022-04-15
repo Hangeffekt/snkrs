@@ -1,0 +1,1 @@
+ez a név: {{ $UserDatas->name }}
