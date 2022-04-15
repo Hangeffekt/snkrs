@@ -8,6 +8,7 @@
         <meta name='revisit-after' content='5 days' >
         <meta name='author' content='Coding: Nagy Lorant' >
         <meta name='language' content='hu' >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title></title>
 
         <!-- fonts start -->
@@ -29,7 +30,9 @@
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/script.js"></script>
     </head>
-    <body class="{{ isset($MainFilter) }}_body">
+<body class="@if(isset($MainFilter))
+                    {{ $MainFilter }}
+                @endif">
         <div class="home_felso_bg_dark"></div>
         <div class="container">
             
@@ -37,7 +40,7 @@
                 <div class="row">
                     @yield('content')
                 </div>
-            @include("include.footer")
+            
         </div>
     </body>
 </html>

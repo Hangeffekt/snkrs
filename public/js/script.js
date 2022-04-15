@@ -218,6 +218,20 @@ $(document).ready(function(){
 	modal.css("display", "none");
 	})
 
+
+
+	// Peter js start here
+	$(document).ready(function(){
+		$(".home_page_h3_button").click(function(){
+			console.log("megy");
+		  $(".mobile_screen").css("display", "none");
+		  $(".mobile_aruhaz_container").css("display", "inline-block");
+		  $(".banana_mobile").css("display", "none");
+		});
+	  });
+
+
+
 });
 
 
